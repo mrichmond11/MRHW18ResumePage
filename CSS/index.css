@@ -1,0 +1,120 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navigation {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-li {
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+
+section {
+    margin: 0px;
+    width: 1600px;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  h1 {
+    padding: 0px;
+    font-size: 40px;
+  }
+  
+  h2 {
+    padding: 0px;
+    width: 300px;
+    font-weight: bold;
+  }
+  
+  p {
+    line-height: 30px;
+  }
+  .jobTitle {
+    font-weight: bold;
+  }
+
+  .experienceSection {
+    display: flex;
+  }
+  
+  .skillSection {
+    display: flex;
+  }
+  .skillsList {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    line-height: 50px;
+    width: 20%;
+    justify-content: space-between;
+  }
+  
+  .edSection {
+    display: flex;
+    margin-top: auto;
+    
+  }
+  
+  .descriptions {
+    padding: 0px;
+    margin: 0px;
+    width: 900px;
+  }
+  .degree{
+  }
+  
+  .resumeDownload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+  }
+  
+  .resumeButton{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    padding: 15px;
+    background-color: transparent;
+    border: solid 1px black;
+    border-radius: 50px;
+    -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+  }
+  
+  .sectionBreak {
+    height: 50px;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    justify-content: flex-start;
+}
+.right {
+  justify-content: flex-end;
+}
+
+@media all (max-width: 500px) {
+    .experienceSection .edSection. .skillSection {
+        flex-direction: column;
+    }
+}
